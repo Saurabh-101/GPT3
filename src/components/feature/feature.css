@@ -18,4 +18,40 @@
         letter-spacing: -0.04rem;
         color: #ffff;
     }
+    div{
+        width: 38px;
+        height: 3px;
+        background: var(--gradient-bar);
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        margin-bottom: 0.25rem;
+    }
+}
+.gpt3__features-container__feature-text{
+    flex: 2;
+    max-width: 390px;
+    display: flex;
+    p{
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        color: var(--color-text);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__features-container__feature-title{
+        h1{
+            font-size: 14px;
+            line-height: 22px;
+        }
+        p{
+            font-size: 12px;
+            line-height: 20px;
+        }
+
+    }
+    .gpt3__features-container__feature{
+        margin: 1rem 0;
+    }
 }
