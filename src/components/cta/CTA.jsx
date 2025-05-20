@@ -1,6 +1,6 @@
 import React from 'react'
-
-const CTA = () => {
+import './cta.css'
+const CTA = () => { 
   return (
     <div>CTA</div>
   )
