@@ -41,10 +41,10 @@ a{
 }
 
 .section__padding{
-    padding: 4 rem 6 rem;
+    padding: 4rem 6rem;
 }
 .section__margin{
-    margin: 4 rem 6 rem;
+    margin: 4rem 6rem;
 }
 
 .scale-up-center {
@@ -75,17 +75,17 @@ a{
 
 @media screen and (max-width: 700px) {
     .section__padding{
-        padding: 4 rem;
+        padding: 4rem;
     }
     .section__margin{
-        margin: 4 rem;
+        margin: 4rem;
     }
 }
 @media screen and (max-width: 550px) {
     .section__padding{
-        padding: 4 rem 2 rem;
+        padding: 4rem 2rem;
     }
     .section__margin{
-        margin: 4 rem 2 rem;
+        margin: 4rem 2rem;
     }
 }
